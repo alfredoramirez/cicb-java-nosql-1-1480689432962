@@ -32,6 +32,7 @@ public class AttachServlet extends HttpServlet {
 		String value = request.getParameter("value");
 		String fileName = request.getParameter("filename");
 
+// This is a sample of a change
 		Database db = null;
 		try {
 			db = CloudantClientMgr.getDB();
