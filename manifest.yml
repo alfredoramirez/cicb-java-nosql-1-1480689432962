@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 768M
+  instances: 2
+  domain: mybluemix.net
+  name: cicb-java-nosql-1
+  host: cicb-java-nosql-1
+  disk_quota: 1024M
+  services:
+  - cicb-java-nosql-1-cloudantNoSQLDB
